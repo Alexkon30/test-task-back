@@ -71,3 +71,8 @@ export class Order {
   orderType: string
 }
 
+export interface FetchParams {
+  property: string
+  url: string,
+}
+
